@@ -3,7 +3,9 @@
         color: #eaabab!important;
     }
     .item {
-        width: 80%!important;
+        width: 90%!important;
+        margin: 10px!important;
+        float: left!important;
     }
 }
 @media(max-width: 767px){

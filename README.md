@@ -1,4 +1,4 @@
-# EL_PROYECTO (Primer entregable)
+# EL_PROYECTO (Primer entregable) link a gh pages https://valescobar.github.io/EL_PROYECTO/
 
 ## Instrucciones 1era entrega
 
