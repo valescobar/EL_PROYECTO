@@ -1,0 +1,134 @@
+@media (max-width: 480px){
+    a{
+        color: #eaabab!important;
+    }
+    .item {
+        width: 80%!important;
+    }
+}
+@media(max-width: 767px){
+    .navbar-nav.navbar-center{
+        background-color: white;
+        width: 100vw;
+        height: 30vh;
+        text-align: center;
+        padding-top: 30px;
+        left: 0;
+        transform: none;
+        z-index: 20;
+    }
+    .navbar-nav.navbar-center ul{
+        position: absolute;
+        z-index: 20;
+        width: 100vw;
+    }
+    .navbar-nav.navbar-center li{
+        background-color: white;
+    }
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header_laflora{
+    position: relative;
+    padding: 60px;
+    box-sizing: border-box;
+    height: 200px;
+}
+.logo_laflora{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    height: 55%;
+}
+
+.logo_laflora_mini{
+    height: 30px;
+}
+
+.header_laflora h1{
+    position: absolute;
+    bottom: 5%;
+    left: 34%;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    color: #eaabab;
+}
+
+.navbar_laflora{
+    border-top: 1px solid #f9eded;
+    border-bottom: 1px solid #f9eded;
+    border-radius: 0;
+    height: 60px;
+}
+
+.navbar_laflora a{
+    color: #989797;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-toggle .icon-bar{
+    background-color: #989797;
+}
+.fancybox-bg{
+    background-color: white!important;
+}
+
+.fancybox-caption{
+    color: black!important;
+}
+
+.fancybox-caption a{
+    color: black!important;
+}
+
+.item {
+  width: 220px;
+  margin: 10px;
+  float: left;
+}
+
+footer{
+    background-color: #eaabab;
+    height: 15%;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.li_laflora{
+    display: inline-block;
+    padding-right:  10px;
+    margin-bottom: 30px;
+}
+
+.img_footer_laflora{
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 45px;
+    display: block;
+}
+footer a,h3,p,i,label{
+    color: white;
+}
+
+footer h3{
+    padding-bottom: 17px;
+    margin-left: 40px;
+}
+
+footer p{
+    padding: 0 40px;
+}
+
+form{
+    width: 80%;
+    margin-left: 40px;
+}

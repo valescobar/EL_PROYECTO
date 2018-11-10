@@ -60,7 +60,7 @@ Fuente: Ubuntu (google fonts)
 Colores:
 -fondo: #FFFFFF;
 -fuente: #333333;
--fuente destacado: FFOOOO;
+-destacado: #eaabab;-
 
 imágenes:
 -Uso de plugin para galeria
