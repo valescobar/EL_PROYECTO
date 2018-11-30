@@ -87,18 +87,43 @@ body{
 }
 
 /* home html */
+#saludo{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: #f37c7c;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
 
+#bienvenido{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+#bienvenido i{
+    text-align: center;
+    font-size: 45px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+.gallery{
+    position: relative;
+}
 .flechader{
     position: absolute;
-    right: 60px;
-    bottom: 80px;
+    right: -60px;
+    bottom: 50%;
     color: #eaabab;
     font-size: 50px;
 }
 .flechaizq{
     position: absolute;
-    left: 60px;
-    bottom: 80px;
+    left: -60px;
+    bottom: 50%;
     color: #eaabab;
     font-size: 50px;
 }
@@ -114,8 +139,11 @@ body{
 .laflora-destacados{
     border-radius: 5px;
     border: dotted 1px #eaabab;
-    height: 300px;
+    height: 350px;
     overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
 
 
