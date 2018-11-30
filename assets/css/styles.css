@@ -167,6 +167,20 @@ body{
   cursor: pointer;
 }
 
+/* pagina cursos */}
+.principal{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.muestra{
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
 footer{
     background-color: #eaabab;
     height: 15%;
