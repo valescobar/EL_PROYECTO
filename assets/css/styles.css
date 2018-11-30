@@ -2,6 +2,11 @@
     a{
         color: #eaabab!important;
     }
+
+    a hover{
+        background-color: #eee!important;
+    }
+
     .item {
         width: 90%!important;
         margin: 10px!important;
@@ -80,6 +85,41 @@ body{
 .navbar-toggle .icon-bar{
     background-color: #989797;
 }
+
+/* home html */
+
+.flechader{
+    position: absolute;
+    right: 60px;
+    bottom: 80px;
+    color: #eaabab;
+    font-size: 50px;
+}
+.flechaizq{
+    position: absolute;
+    left: 60px;
+    bottom: 80px;
+    color: #eaabab;
+    font-size: 50px;
+}
+
+.gallery li{
+     list-style: none;
+}
+
+.gallery img{
+    display:none;
+}
+
+.laflora-destacados{
+    border-radius: 5px;
+    border: dotted 1px #eaabab;
+    height: 300px;
+    overflow: auto;
+}
+
+
+/* galeria html */
 .fancybox-bg{
     background-color: white!important;
 }
@@ -96,6 +136,7 @@ body{
   width: 220px;
   margin: 10px;
   float: left;
+  cursor: pointer;
 }
 
 footer{
@@ -104,11 +145,12 @@ footer{
     padding: 30px;
     margin-top: 30px;
 }
-
+footer ul{
+    display: inline;
+}
 .li_laflora{
     display: inline-block;
     padding-right:  10px;
-    margin-bottom: 30px;
 }
 
 .img_footer_laflora{
@@ -117,17 +159,12 @@ footer{
     margin: 10px 45px;
     display: block;
 }
-footer a,h3,p,i,label{
+
+.footer-copyright{
+    float: right;
+}
+footer a,i,li{
     color: white;
-}
-
-footer h3{
-    padding-bottom: 17px;
-    margin-left: 40px;
-}
-
-footer p{
-    padding: 0 40px;
 }
 
 form{
