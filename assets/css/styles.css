@@ -34,6 +34,22 @@
     }
 }
 
+@media(min-width: 1400px){
+    .header_laflora{
+        position: relative;
+        padding: 60px;
+        box-sizing: border-box;
+        height: 200px;
+    }
+
+    .header_laflora h1{
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+    }
+
+}
+
 body{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -168,16 +184,18 @@ body{
 }
 
 /* pagina cursos */}
-.principal{
+.principall img{
     display: block;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .muestra{
     padding: 10px;
     box-sizing: border-box;
+    cursor: pointer;
 
 }
 
@@ -195,11 +213,14 @@ footer ul{
     padding-right:  10px;
 }
 
-.img_footer_laflora{
-    height: 80px;
+.img_about_laflora{
+    height: 150px;
     border-radius: 50%;
-    margin: 10px 45px;
+    margin: 20px auto;
     display: block;
+}
+.img-about{
+    border-radius: 15px;
 }
 
 .footer-copyright{
