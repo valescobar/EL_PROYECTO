@@ -17,7 +17,9 @@ $(document).ready(function(){
         $('#aqui').prepend('<h3 class="dinamico">AQUÍ</h3>');
     });
 
-    $('body').on('click','.dinamico', function(){
+    // el "aqui" se repite para que se entienda y se vea que hay una delegacion de evento
+
+    $('body').on('click', '.dinamico', function(){
         $('.arrow').remove();
         $('#aqui').append('<i class="fas fa-angle-down arrow"></i>');
     })
