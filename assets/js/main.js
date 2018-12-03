@@ -12,12 +12,14 @@ $(document).ready(function(){
     });
 
     // prepend y append pagina contacto
-    $('#apunta').on('click', function(contacto,html){
+    // esto iba sobre un iframe pero puse una imagen referiancial por error 404
+    $('#apunta').on('click', function(){
         $('#aqui').prepend('<h3 class="dinamico">AQUÍ</h3>');
     });
 
     $('body').on('click','.dinamico', function(){
-        $('#aqui').prepend('<i class="fas fa-angle-down"></i>');
+        $('.arrow').remove();
+        $('#aqui').append('<i class="fas fa-angle-down arrow"></i>');
     })
 
 
